@@ -1,0 +1,299 @@
+@font-face {
+    font-family: BebasNeue ;
+    src: url("../assets/fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: AktivGrotesk;
+    src: url("../assets/fonts/AktivGrotesk-Regular.ttf");
+}
+
+/* root is from original page */
+
+/* I changed and deleted some of them */
+:root{
+    --another: #b300ff;
+    --primary: #fff;
+    --primary-2: #f1f3f5;
+    --secondary: #000;
+    --secondary-2: #111;
+    --selection: var(--cyan);
+    --text-base: #000;
+    --text-primary: #000;
+    --text-secondary: #fff;
+    --text-tertiary: #9d9d9d;
+    --text-error: #ff4d6a;
+    --text-accessories: #e6e6e6;
+    --text-accessories-price: #999;
+    --dark-bg-btn-primary: #ece81a;
+    --hover: rgba(0,0,0,0.075);
+    --hover-1: rgba(0,0,0,0.15);
+    --hover-2: rgba(0,0,0,0.25);
+    --cyan: #22b8cf;
+    --green: #37b679;
+    --red: #da3c3c;
+    --pink: #e64980;
+    --purple: #f81ce5;
+    --light-grey: #909090;
+    --blue: #0070f3;
+    --light-blue: #00d3e5;
+    --light-violet: #1db2bf;
+    --violet-light: #7048e8;
+    --violet: #5f3dc4;
+    --black-light: #121212;
+    --black-light-rgb: 18,18,18;
+    --tower-gray: #a3bcbf;
+    --accents-0: #f8f9fa;
+    --accents-1: #f1f3f5;
+    --accents-2: #e9ecef;
+    --accents-3: #dee2e6;
+    --accents-4: #ced4da;
+    --accents-5: #adb5bd;
+    --accents-6: #868e96;
+    --accents-7: #495057;
+    --accents-8: #343a40;
+    --accents-9: #212529;
+    --bordercolor: #333;
+    --placeholderc: #858585;
+    --wrappercolor: #1e1e1e;
+    --border-active: #1ba3af;
+    --border-light: #666;
+    --hydro-submenu: #151515;
+    --hydro-submenu-modal: #1a1a1a;
+    --base-font: 16px;
+     
+    /* modifier */
+
+    --orange: #E9861C;
+}
+
+html{
+    background-color: #000000;
+    color: white;
+  
+  
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+.header__top{
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
+    
+}
+
+.header__top__logos{
+    margin-right: 19px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+/* remove link style */
+.header__top a {
+    font-style: none;
+    color: transparent;
+    text-decoration: none;
+}
+
+.header__top__logos--drop{ 
+    padding-left: 17px;
+    margin-left: 19px;
+    border-left: 1px solid var(--dark-bg-btn-primary);
+}
+
+.header__top__logos--elgato{ 
+    padding-left: 17px;
+    margin-left: 19px;
+    border-left: 1px solid var(--blue);
+}
+
+.header__top__logos--origin{ 
+    padding-left: 17px;
+    margin-left: 19px;
+    border-left: 1px solid var(--red);
+}
+
+.header__top__logos--scuf{ 
+    padding-left: 17px;
+    margin-left: 19px;
+    border-left: 1px solid var(--orange);
+}
+
+.header__top__register{
+    display: flex;
+    font-family: AktivGrotesk;
+    padding: 5px;
+    align-items: center;
+    font-size: 11px;
+}
+
+.header__top__register p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header__top__register__2{
+    margin-left: 10px;
+    padding-left: 17px;
+    padding-right: 10px;
+    
+    border-left: 1px solid var(--text-tertiary);
+    color: #b6bec6 ;
+}
+
+.header__top__register__2 p{
+    margin: 2px;
+    
+}
+
+.nav{
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #252F3F;
+}
+
+.nav__links{
+    display: flex;
+    
+
+}
+
+.nav__links__box{
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: BebasNeue;
+    font-size: 14px;
+}
+
+.nav__links__box:hover{
+    border-bottom: 3px solid yellow;
+}
+
+.nav__links__i{
+    margin: 8.5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    margin-top: 32px;
+    padding: 10px;
+    
+    align-items: baseline;
+    font-family: AktivGrotesk;
+    border-bottom: 1px solid #333;
+    
+}
+
+.footer__box{
+    width: 300px;
+    padding-right: 20px;
+    margin-right: 40px;
+}
+
+.footer__box__tittle{
+    font-size: 15px;
+}
+
+.footer__box__list{
+    font-size: 12px;
+    color:rgb(186, 187, 187);
+}
+
+.footer__box__list ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 17px;
+}
+
+.footer__box__list li{
+    margin-top: 8px;
+}
+
+.footer__input{
+    padding: 5px;
+}
+
+.footer__input__text{
+    padding: 10px;
+}
+
+.footer__input__text__tittle{
+    color: var(--dark-bg-btn-primary);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer__input__text__subtittle{
+    font-size: 13px;
+
+}
+
+.footer__input__email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.footer__input__email input{
+    padding: 12.8px;
+    background-color: #1e1e1e;
+    border: 1px solid #383838;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.footer__input__email__send{
+    background-color:var(--dark-bg-btn-primary);
+    color: #000 ;
+    font-size: 11px;
+    padding: 12px;
+    border-radius: 0px 3px 3px 0px;
+    
+    width: 90px;
+    cursor: pointer;
+}
+
+.footer__input__email__send button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer__social_media img{
+    margin: 3px;
+}
+
+.Copyright{
+    color:rgb(125, 125, 125);  
+    font-size: 10px;
+    margin: 18px;
+    font-family: AktivGrotesk;
+    text-align: right;
+}
+
+.link__remove{
+    font-style: none;
+     color: white;
+    text-decoration: none;
+    
+}

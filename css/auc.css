@@ -1,0 +1,131 @@
+
+
+.auc__search{
+    width: auto;
+    height: 700px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.297)),  url("../assets/images/bg-index-headp.png");
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.auc__search__text{
+    max-width: 57%;
+    font-family: AktivGrotesk;
+}
+
+.auc__search__text h2{
+ color: yellow;
+ font-size: 24px;
+}
+
+.auc__search__text h1{
+    font-family: BebasNeue;
+    font-size: 65px;
+    margin-bottom: 10px;
+    margin-top: 0;
+     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.auc__search__text p{
+    font-size: 23px;
+    margin-top: 0;
+}
+
+.auc__search__boxes{
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 230px;
+}
+
+.auc__search__box{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background: linear-gradient(180deg,rgba(255,255,255,.24) 0,rgba(255,255,255,0) 100%),rgba(0,0,0,.7);
+    border: 1px solid #ece81a;
+    border-radius: 2px;
+    padding: 15px;
+    font-family: BebasNeue;
+}
+
+.auc__search__box img{
+    padding-right: 10px;
+}
+
+.auc__search_newProduct{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.auc__search__newProduct__box{
+    background-color: rgba(16,16,16,.53);
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+    border-radius: 2px;
+    font-family: AktivGrotesk;
+    text-align: left;
+}
+
+.auc__search__newProduct__box p{
+    margin: 5px;
+}
+
+.-blue{
+    color: rgb(0, 195, 195);
+    font-size: 13px;
+
+}
+
+.virtuoso_series__nav{
+background-color: #272727;
+display: flex;
+align-items: center;
+justify-content: space-around;
+font-family: AktivGrotesk;
+font-size: 14px;
+}
+
+.virtuoso_series__nav__df{
+    display: flex;
+    padding: 5px;
+    margin-right: 150px;
+    align-items: center;
+}
+
+.nav_1{
+    margin: 10px;
+    color: #aca9a9;
+}
+
+.nav_1-yellow{
+    color: #ece81a;
+    margin-left: 20px;
+    
+}
+
+.nav_1-checked{
+    padding: 10px ;
+    border-bottom: 2px solid #ece81a;
+}
+
+.vs__tittle{
+    font-family: BebasNeue;
+    font-size: 33px;
+    margin-top: 20px;
+
+}
+
+.virtuoso_series__body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.297)),   url("../assets/images/bg-color-glows.png");
+    height: 550px;
+    background-size: cover;
+}
