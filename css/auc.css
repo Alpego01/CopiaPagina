@@ -6,6 +6,7 @@
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.297)),  url("../assets/images/bg-index-headp.png");
     padding: 30px;
+    background-position: center;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -117,15 +118,244 @@ font-size: 14px;
     border-bottom: 2px solid #ece81a;
 }
 
-.vs__tittle{
+.auc__tittle{
     font-family: BebasNeue;
     font-size: 33px;
-    margin-top: 20px;
+    padding-top: 20px;
 
 }
 
 .virtuoso_series__body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.297)),   url("../assets/images/bg-color-glows.png");
-    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.297)),   url("../assets/images/bg-color-glows.png") ;
+    padding: 20px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vs__body__headphones{
+    display: flex;
+    
+}
+
+.vs__body__headphones__box{
+    margin: 20px;
+    width: 260px;
+    /* padding: 20px; */
+    /* border: 2px solid yellow; */
+    background-color: #171717;
+    border: 1px solid #404040;
+    border-radius: 2px;
+    
+
+
+}
+
+.space_between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.vs__body__headphones__box__img{
+    background:  linear-gradient(#1C1027, #1B142B);
+    padding: 10px;
+}
+
+.vs__body__headphones__box__img-2{
+    background:  linear-gradient(#1B142B,#1C1027 );
+    padding: 10px;
+}
+
+.vs__body__headphones__box__img-3{
+    padding: 10px;
+    background:  linear-gradient(#111525,#1F192F ); 
+}
+
+.vs__body__headphones__box__img-4{
+    padding: 10px;
+    background:  linear-gradient(#1F192F,#111525 ); 
+}
+
+.vs__body__headphones__box__color{
+    display: flex;
+    
+    font-family: BebasNeue;
+    font-size: 15px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    
+}
+
+.vs__body__headphones__box__color__bubbles{
+    display: flex;
+}
+
+.vs__body__headphones__box__color__name{
+    margin-left: 30px;
+}
+
+.bubble{
+    padding: 13px;
+    border-radius: 90px;
+    outline: 2px solid #ece81a;
+    margin-left: 18px;
+    outline-offset: 4px;
+    cursor: pointer;
+    background: linear-gradient( 150.36deg, #383838 14.66%, #282828 49.71%, #303030 49.88%, #575757 84.57% );
+}
+
+.bubble-2{
+    padding: 13px;
+    border-radius: 90px;
+    outline: 2px solid #ece81a;
+    margin-left: 18px;
+    background-color: #666867;
+    outline-offset: 4px;
+    cursor: pointer;
+    
+}
+
+.bubble-3{
+    padding: 13px;
+    border-radius: 90px;
+    margin-left: 20px;
+    outline: solid 2px #5c5c58;
+    outline-offset: 4px;
+    cursor: pointer;
+    
+    background-color: #593d39;
+    
+}
+
+.bubble-4{
+    padding: 13px;
+    border-radius: 90px;
+    outline: 2px solid #ece81a;
+    margin-left: 18px;
+    outline-offset: 4px;
+    cursor: pointer;
+    background:  linear-gradient( 150.36deg, #343434 14.66%, #212121 49.71%, #0a0a0a 49.88%, #393939 84.57% );
+}
+
+.bubble-5{
+    padding: 13px;
+    border-radius: 90px;
+    margin-left: 20px;
+    outline: solid 2px #5c5c58;
+    outline-offset: 4px;
+    cursor: pointer;
+    
+    background-color: white;
+}
+
+.bubble-6{
+    padding: 13px;
+    border-radius: 90px;
+    margin-left: 20px;
+    outline: solid 2px #5c5c58;
+    outline-offset: 4px;
+    cursor: pointer;
+
+    background: linear-gradient( 150.36deg, #f9f9f9 14.66%, #c4c4c6 49.71%, #97806b 49.88%, #9b8573 66.91%, #d9c8b9 84.57% );
+}
+
+.bubble-5:hover,.bubble-6:hover,.bubble-3:hover{
+    outline: 2px solid #ece81a;
+
+}
+
+.vs__body__headphones__box__price{
+    font-family: BebasNeue;
+    font-size: 17px;
+    margin: 5px 0px 0px 20px;
+}
+
+.x-price{
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: #aca9a9;
+}
+    
+
+.vs__body__headphones__box__desc{
+    font-family: AktivGrotesk;
+    padding: 10px;
+    
+    
+}
+
+.vs__body__headphones__box__desc p{
+    margin: 0;
+    padding-left: 20px;
+
+}
+
+.vs__body__headphones__box__desc ul{
+    font-size: 15px;
+    
+}
+
+.vs__body__headphones__box__desc li{
+    margin-bottom: 5px;
+    
+}
+
+.vs__body__headphones__box__buyNow{
+    padding: 20px 20px 20px;
+    font-family: AktivGrotesk;
+    color: #ece81a;
+    font-size: 14px;
+
+    
+}
+
+.slipstream{
+    background-image: url("../assets/images/bg-slipstream-hs80.png");
+    backdrop-filter: opacity(20%);
+    width: auto;
+    height: 700px;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.slipstream__box{
+    padding: 10px;
+    width: 700px;
+    padding: 15px;
+    border-radius: 5px;
+    backdrop-filter: blur(90px);
+    background-color: #25223B;
+    font-family: AktivGrotesk;
+
+}
+
+.slipstream__box h2{
+    font-family: BebasNeue;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+
+
+.slipstream__body{
+    display: flex;
+    align-items: center;
+}
+
+.slipstream__body img{
+    margin: 10px;
+}
+
+.slipstream__moreInformation{
+    color: #ece81a;
+    margin-top: 30px;
 }

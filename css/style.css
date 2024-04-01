@@ -61,6 +61,9 @@
     --hydro-submenu: #151515;
     --hydro-submenu-modal: #1a1a1a;
     --base-font: 16px;
+
+    /* some backgrounds I found */
+    /* background: linear-gradient( 150.36deg, #f9f9f9 14.66%, #c4c4c6 49.71%, #97806b 49.88%, #9b8573 66.91%, #d9c8b9 84.57% ); */
      
     /* modifier */
 
@@ -181,7 +184,7 @@ body{
 }
 
 .nav__links__box:hover{
-    border-bottom: 3px solid yellow;
+    border-bottom: 1px solid yellow;
 }
 
 .nav__links__i{
